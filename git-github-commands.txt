@@ -1,0 +1,591 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 HelveticaNeue-Bold;\f2\fswiss\fcharset0 Helvetica;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 HelveticaNeue-Italic;}
+{\colortbl;\red255\green255\blue255;\red154\green154\blue154;\red220\green161\blue13;}
+{\*\expandedcolortbl;;\csgray\c66667;\cssrgb\c89412\c68627\c3922;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid601\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}
+{\list\listtemplateid8\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid701\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid8}
+{\list\listtemplateid9\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid9}
+{\list\listtemplateid10\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid10}
+{\list\listtemplateid11\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid11}
+{\list\listtemplateid12\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid12}
+{\list\listtemplateid13\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid13}
+{\list\listtemplateid14\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid14}
+{\list\listtemplateid15\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid15}
+{\list\listtemplateid16\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid16}
+{\list\listtemplateid17\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid17}
+{\list\listtemplateid18\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid18}
+{\list\listtemplateid19\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1801\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid19}
+{\list\listtemplateid20\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid1901\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid20}
+{\list\listtemplateid21\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2001\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid21}
+{\list\listtemplateid22\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid22}
+{\list\listtemplateid23\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid23}
+{\list\listtemplateid24\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2301\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid24}
+{\list\listtemplateid25\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid25}
+{\list\listtemplateid26\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2501\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid26}
+{\list\listtemplateid27\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid27}
+{\list\listtemplateid28\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2701\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid28}
+{\list\listtemplateid29\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2801\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid29}
+{\list\listtemplateid30\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2901\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid30}
+{\list\listtemplateid31\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid3001\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid31}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}{\listoverride\listid8\listoverridecount0\ls8}{\listoverride\listid9\listoverridecount0\ls9}{\listoverride\listid10\listoverridecount0\ls10}{\listoverride\listid11\listoverridecount0\ls11}{\listoverride\listid12\listoverridecount0\ls12}{\listoverride\listid13\listoverridecount0\ls13}{\listoverride\listid14\listoverridecount0\ls14}{\listoverride\listid15\listoverridecount0\ls15}{\listoverride\listid16\listoverridecount0\ls16}{\listoverride\listid17\listoverridecount0\ls17}{\listoverride\listid18\listoverridecount0\ls18}{\listoverride\listid19\listoverridecount0\ls19}{\listoverride\listid20\listoverridecount0\ls20}{\listoverride\listid21\listoverridecount0\ls21}{\listoverride\listid22\listoverridecount0\ls22}{\listoverride\listid23\listoverridecount0\ls23}{\listoverride\listid24\listoverridecount0\ls24}{\listoverride\listid25\listoverridecount0\ls25}{\listoverride\listid26\listoverridecount0\ls26}{\listoverride\listid27\listoverridecount0\ls27}{\listoverride\listid28\listoverridecount0\ls28}{\listoverride\listid29\listoverridecount0\ls29}{\listoverride\listid30\listoverridecount0\ls30}{\listoverride\listid31\listoverridecount0\ls31}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs26 \cf0 Commands\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Navigation
+\f0\b0 \
+open . \'97> open the folder with finder UI\
+code . \'97> open the folder with VS code\
+open <filename> (For Windows, it is "start") \
+[tab] button to auto complete file name\
+ls -a \'97> show all including hidden files\
+ls <filename>\
+rm \'97> remove file\
+rm -rf \'97> remove folder(directory)\
+clear \
+pwd \'97> file location path\
+cat Documents/my-text-file.txt \'97> show inside of the file\
+\
+
+\f1\b File Creation\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 touch filename1.txt filename2.js filename3.csv\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Folder Creation\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 mkdir Foldername\
+\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Default editor was the VIM, with this command i changed it with VS Code\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt20 \clpadl100 \clpadb20 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clbrdrt\brdrs\brdrw20\brdrcf2 \clbrdrl\brdrs\brdrw20\brdrcf2 \clbrdrb\brdrs\brdrw20\brdrcf2 \clbrdrr\brdrs\brdrw20\brdrcf2 \clpadt20 \clpadl100 \clpadb20 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 Visual Studio Code
+\f2\fs24 \cell 
+\pard\intbl\itap1\pardeftab560\slleading20\partightenfactor0
+
+\f0\fs26 \cf0 git config --global core.editor "code --wait"\cell \lastrow\row
+\pard\pardeftab560\slleading20\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config"}}{\fldrslt \cf3 https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config}}\
+\
+HEAD shows you which barnch you are on..\
+\pard\pardeftab560\sa40\qc\partightenfactor0
+
+\f1\b\fs32 \cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\fs26 \cf0 Git log options\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f1\b\fs26 git log
+\f0\b0  [<options>] [<revision-range>] [[--] <path>\'85\uc0\u8203 ]\
+\ls1\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git log --oneline\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config\
+\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 AMEND\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 there is a mistake in commit message\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls2\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git commit \'97amend\
+\ls2\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 fix message in VIM editor\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 if some files are not added\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls3\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git add file\
+\ls3\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git commit \'97amend\
+\ls3\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 close VIM\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Branches\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 New branches will created based on the where your HEAD is\'85\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls4\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout is old version, still works but it has a lot different usages too.\
+\ls4\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git switch <branchname>\
+\ls4\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git switch -c <branch> (create and switch)\
+\ls4\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout -b <branch> (create and switch)\
+\ls4\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git commit -a -m "add aaa"   (add all files to stage and commit) or\
+\ls4\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git commit -am "message"\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 delete branch\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 you shouldn\'92t be on the branch that u will rename
+\f1\b \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls5\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git branch -d <branch-name> (-d is shortcut for "--delete" - will work only if branch is merged)\
+\ls5\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git branch -D <branch-name> (-D is shortcut for "--delete --force" will force delete the branch) \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 rename branch\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 you should be on the branch that u will delete
+\f1\b \
+
+\f0\b0 git branch -m <new-name> (-m is shortcut for "-- move")\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Merging branches on local\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 1- checkout to the branch where you want to merge your branch(switch to master)\
+2- use git merge command to merge changes from a specific branch into currenct branch\
+git switch master\
+git merge my-feature-branch (master will have all work history)\
+this is called "
+\f1\b fast-forward merge
+\f0\b0 ", master catch up with new codes \
+this works fine if the other branch doesn\'92t have changes that specific branch dont have \
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls6\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git branch -v (used to show branch names and tip of the branch with short hash code and commit message in one line)\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+*** if you have some changes on both main and specific branch, when you merge it, you need to enter commit mesage via VIM editor or whatever editor you choose. Because both branches don\'92t know about some changes that otheer brances have, git will create a new commit for this merge. However for the "fast forward merge" git will not assk for commit message.\
+(\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls7\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8259 	}
+\fs26 "Merge made by recursive strategy"\
+\ls7\ilvl0
+\fs24 {\listtext	\uc0\u8259 	}
+\fs26 "Merge made by the 'ort' strategy."\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 )\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Resolving Conflicts
+\f0\b0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls8\ilvl0\cf0 {\listtext	0.	}open up the files that have conflicts\
+{\listtext	0.	}edit the files to remove conflicts. decide which branch\'92s content you want to keep in each conflict. Or keep both of them\
+{\listtext	0.	}remove the conflict markers in the document\
+{\listtext	0.	}add your changes and then make a commit\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 COMPARING CHANGES WITH "git diff"\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls9\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff   \'97> (Compares Staging Area and Working Directory. will show all the changes in working directory that are NOT staged for the next commit. If you added changes to the staging, you can\'92t see them. Because "git diff" command shows difference between working directory and staging area. Now everything in Working Dir is staged, so there are no difference to show)\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 	But if you create a new file and make changes, you can\'92t see it in git diff. you need to add changes to staging and use git diff HEAD. Because there was no such file before, git will show 
+\f1\b --- /dev/null
+\f0\b0  in comparison.\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls10\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff HEAD \'97> (list all changes in the working tree since your last commit. shows everything from the last commit where HEAD points)\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls11\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff \'97staged / git diff --cached (will list the changes between the staging area and last commit. "show me what will be included in my commit if I run git commit right now")\
+\ls11\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff myfile.txt \'97> see the differences only in a specific file\
+\ls11\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff HEAD myfile.txt\
+\ls11\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff \'97staged myfile1.txt myfile2.txt \'97> you can select multiple files\
+\ls11\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff branch-1..branch-2 \'97> compare different branches\
+\ls11\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git diff 4a9da7b..2l32p9c \'97> compare between commits\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 STASH\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls12\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash | git stash save\
+\ls12\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash pop \'97> apply recent stash\
+\ls12\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash apply \'97> applies stash but also keeps the stash, so you can apply or pop the same one to another branches\
+\ls12\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash list \
+\ls12\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash pop stash@\{0\}\
+\ls12\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash clear \'97> clear all\
+\ls12\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git stash drop stash@\{1\} \'97> delete single one\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 \'97 GIT CHECKOUT \'97
+\f0\b0 \
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls13\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout <commit-hash>  \'97> to view a previous commit, just 7digits are enough\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0  with this, you will be in '
+\f1\b detached HEAD
+\f0\b0 ' state. you can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by switching back to the branch\
+\
+HEAD usually refers to a branch, NOT a specific commit.\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls14\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout HEAD~1 \'97> refers to the ONE commit before HEAD (parent)\
+\ls14\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout HEAD~2 \'97> refers to 2 commits before HEAD (grandparent)\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls15\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git switch master -> to RE-Attach HEAD or\
+\ls15\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git switch - \'97> to get back where you were before\
+\ls15\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout origin/<branchname> \'97> this will detach the HEAD to work with HEAD attached workspace;\
+\ls15\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git switch <remote-branchname> \'97> to create a new local branch from the remote branch of the same name AND sets up to track the remote branch  .switching 
+\f1\b without "origin", 
+\f0\b0 if such branch exist on remote, action will be successful\
+\ls15\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout \'97track origin/branchname \'97>same thing as above with switch\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Discarding Changes with Checkout
+\f0\b0 \
+To revert the file back to whatever it looked like when you last commmitted, you can use: \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls16\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout --  <filename> || git checkout HEAD <filename>  \'97> discards any changes in that file, reverting back to the HEAD \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 \'97 GIT RESTORE \'97\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls17\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git restore <filename> \'97> this command is "undoable", it means changes will be gone for good!\
+\ls17\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git restore --source HEAD~1 <file-name> \'97> restore the contents prior to HEAD\
+\ls17\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git restore --staged <file-name> \'97> get back files to unstaged state.\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 \'97 GIT RESET \'97
+\f0\b0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls18\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git reset <commit-hash> \'97> for example, if you made commits to the master branch, you can take back the commits. those changes will be in your working directory as unstaged changes\
+\ls18\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git reset --hard <commit-hash> \'97> undo commits and all changes. (changes will be gone for good)\
+\ls18\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git reset --hard HEAD~1\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 \'97 GIT REVERT \'97
+\f0\b0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls19\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git revert <commit-hash>  \'97> git revert is also used to "undo" changes, but it creates a brand new commit which reverses/undos the changes from a commit. Because it results in a new commit you will be promted to enter commit message.\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls20\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8259 	}
+\fs26 revert is better to use when other people are also working with same repository. because if you reset the commits that others have too, it will cause some problems. In this case, use revert and it will create a new commit and everything will be fine.\
+\ls20\ilvl0
+\fs24 {\listtext	\uc0\u8259 	}
+\fs26 git revert sometimes cause conflicts\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Git Remote\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls21\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote \'97> shows the remote name (which is origin almast always) \
+\ls21\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote -v (fetch) (psuh) \'97> shows remote url\
+\ls21\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote rename <old> <new>\
+\ls21\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote remove <name>\
+\ls21\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote add <name> <url> (most of the times the name is being "origin")\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 \
+Git Push\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls22\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git push <remote-name> <branch>\
+\ls22\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git push <remote> <local-branch>:<remote-branch> \'97> used to push different branches\
+\ls22\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git push -u origin master \'97> -u option allows us to set upstream of the branch we\'92re pushing. Like a link connecting local branch to a branch on Github. Running this command sets the upstream of the local master branch on the origin repo\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 -u 
+\f0\b0 is shortcut for --set-upstream
+\f1\b \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Fetch & Pull\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls23\ilvl0
+\f3\b0\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git checkout origin/master \'97> to see the origin point, it will detach the HEAD. Because if you have some updates committed, origin/master  will stay behind.\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls24\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8259 	}
+\f1\b\fs26 fetching 
+\f0\b0 allows us to download changes from a remote repository, BUT those changes will not be automatically integrated into our working files\
+\ls24\ilvl0
+\fs24 {\listtext	\uc0\u8259 	}
+\fs26 It lets you te see what others have been working on without having to merge those changes into your local repo.\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls25\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git fetch <remote> \'97> git fetch origin (fetches branches and history from a specific remote repository. Only updates the remote tracking branches.)\
+\ls25\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git fetch <remote> <branch> \'97> fetch from specific branch\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls26\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8259 	}
+\fs26 Fetch is safe to do anytime, Pull may couse conflicts if you have uncommitted changes.\
+\ls26\ilvl0
+\fs24 {\listtext	\uc0\u8259 	}
+\fs26 Fetch does not merge changes onto your HEAD branch\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Forking\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 to fork a project, fork from github and clone it.\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls27\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote add upstream <repo-url>  \'97>To get updates from the original one\
+\ls27\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git remote -v \'97> see al remotes\
+\ls27\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git pull upstream main (instead of origin, we use "upstream" keyword that we created for original repo name)\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 <\'97\'97REBASE\'97\'97>\
+There are two ways to use rebase: 1-for alternative merge, 2-as a clean up tool\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0 \cf0 Rebase is just another way of combining branches instead of merging.
+\f1\b \
+
+\f0\b0 When you have a feature branch and merge the master branch to your branch in order to get updates, you will have others commit history in your branch too. I f you want a clear history, you need to use "rebase" command\
+\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls28\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git switch feature-branch\
+\ls28\ilvl0
+\f3\fs18 {\listtext	\uc0\u8226 	}
+\f0\fs26 git rebase master\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+WARNING\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls29\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8259 	}
+\fs26 Never rebase commits that have been shared with others. If you have already pushed commits, DO NOT rebase them unless you are positive no one on the team is using those commits.\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f1\b \cf0 Interactive Rebasing 
+\f0\b0 (Rewording Commits, Fixing Up/Squahing Commits, Dropping Commits)\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls30\ilvl0
+\f3\fs18 \cf0 {\listtext	\uc0\u8226 	}
+\f0\fs26 git rebase -i HEAD~4\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls31\ilvl0
+\fs24 \cf0 {\listtext	\uc0\u8259 	}
+\fs26 Running git rebase with the "-i" option will enter the interactive mode, which allows us to edit commits, add files, drop commits, etc. Note that we need to specify how far back we want to rewrite commits.\
+\ls31\ilvl0
+\fs24 {\listtext	\uc0\u8259 	}
+\fs26 Also notice that we are not rebasing onto another branch. Instead, we are rebasing a series of commits onto HEAD they currently are based on.\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 \
+_______________________________________________\
+_______________________________________________\
+_______________________________________________\
+VS CODE\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97- \
+Activate "code" commands\
+for mac: command + shift + P\
+enter: Install 'code' command in PATH \
+======================\
+\
+\pard\pardeftab560\sa40\partightenfactor0
+
+\f1\b\fs32 \cf0 Listing Your Tags\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0\fs26 \cf0 Listing the existing tags in Git is straightforward. Just type [git tag] (with optional -l or --list):\
+\pard\pardeftab560\sa40\partightenfactor0
+
+\f1\b\fs32 \cf0 Creating Tags\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0\fs26 \cf0 Git supports two types of tags: 
+\f4\i lightweight
+\f0\i0  and 
+\f4\i annotated
+\f0\i0 .\
+\pard\pardeftab560\sa40\partightenfactor0
+
+\f1\b\fs32 \cf0 Annotated Tags\
+\pard\pardeftab560\slleading20\partightenfactor0
+
+\f0\b0\fs26 \cf0 Creating an annotated tag in Git is simple. The easiest way is to specify -a when you run the tag command:\
+$ git tag -a v1.4 -m "my version 1.4"\
+$ git tag\
+v0.1\
+v1.3\
+v1.4\
+\
+\
+ git log --pretty=oneline  \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+\cf0 git branch --set-upstream-to=origin/3.2.x add-list-ops-3.2 \
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0  git pull --tags -f  \
+	(-f will ignore your local and get from remote in case of duplication)\
+git tag -l \'93v3.2*\'94\
+	(list all tags starting with the text)\
+git tag -a v3.3.0_0.1.3 -m "mail ops jmx added to 3.3.x" 93cbc8c5\
+ git push --tags \
+\
+git show <tagname>     }

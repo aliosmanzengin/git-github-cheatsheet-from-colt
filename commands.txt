@@ -1,0 +1,222 @@
+Commands
+
+Navigation
+open . —> open the folder with finder UI
+code . —> open the folder with VS code
+open <filename> (For Windows, it is "start") 
+[tab] button to auto complete file name
+ls -a —> show all including hidden files
+ls <filename>
+rm —> remove file
+rm -rf —> remove folder(directory)
+clear 
+pwd —> file location path
+cat Documents/my-text-file.txt —> show inside of the file
+
+File Creation
+touch filename1.txt filename2.js filename3.csv
+Folder Creation
+mkdir Foldername
+
+
+Default editor was the VIM, with this command i changed it with VS Code
+Visual Studio Code
+git config --global core.editor "code --wait"
+https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+
+HEAD shows you which barnch you are on..
+
+Git log options
+	•	git log [<options>] [<revision-range>] [[--] <path>…​]
+	•	git log --oneline
+https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+
+
+AMEND
+there is a mistake in commit message
+	•	git commit —amend
+	•	fix message in VIM editor
+if some files are not added
+	•	git add file
+	•	git commit —amend
+	•	close VIM
+
+Branches
+New branches will created based on the where your HEAD is…
+	•	git checkout is old version, still works but it has a lot different usages too.
+	•	git switch <branchname>
+	•	git switch -c <branch> (create and switch)
+	•	git checkout -b <branch> (create and switch)
+	•	git commit -a -m "add aaa"   (add all files to stage and commit) or
+	•	git commit -am "message"
+
+delete branch
+you shouldn’t be on the branch that u will rename
+	•	git branch -d <branch-name> (-d is shortcut for "--delete" - will work only if branch is merged)
+	•	git branch -D <branch-name> (-D is shortcut for "--delete --force" will force delete the branch) 
+
+rename branch
+you should be on the branch that u will delete
+git branch -m <new-name> (-m is shortcut for "-- move")
+
+Merging branches on local
+
+1- checkout to the branch where you want to merge your branch(switch to master)
+2- use git merge command to merge changes from a specific branch into currenct branch
+git switch master
+git merge my-feature-branch (master will have all work history)
+this is called "fast-forward merge", master catch up with new codes 
+this works fine if the other branch doesn’t have changes that specific branch dont have 
+
+	•	git branch -v (used to show branch names and tip of the branch with short hash code and commit message in one line)
+
+*** if you have some changes on both main and specific branch, when you merge it, you need to enter commit mesage via VIM editor or whatever editor you choose. Because both branches don’t know about some changes that otheer brances have, git will create a new commit for this merge. However for the "fast forward merge" git will not assk for commit message.
+(
+	⁃	"Merge made by recursive strategy"
+	⁃	"Merge made by the 'ort' strategy."
+)
+
+Resolving Conflicts
+	0.	open up the files that have conflicts
+	0.	edit the files to remove conflicts. decide which branch’s content you want to keep in each conflict. Or keep both of them
+	0.	remove the conflict markers in the document
+	0.	add your changes and then make a commit
+
+COMPARING CHANGES WITH "git diff"
+	•	git diff   —> (Compares Staging Area and Working Directory. will show all the changes in working directory that are NOT staged for the next commit. If you added changes to the staging, you can’t see them. Because "git diff" command shows difference between working directory and staging area. Now everything in Working Dir is staged, so there are no difference to show)
+	But if you create a new file and make changes, you can’t see it in git diff. you need to add changes to staging and use git diff HEAD. Because there was no such file before, git will show --- /dev/null in comparison.
+
+	•	git diff HEAD —> (list all changes in the working tree since your last commit. shows everything from the last commit where HEAD points)
+
+	•	git diff —staged / git diff --cached (will list the changes between the staging area and last commit. "show me what will be included in my commit if I run git commit right now")
+	•	git diff myfile.txt —> see the differences only in a specific file
+	•	git diff HEAD myfile.txt
+	•	git diff —staged myfile1.txt myfile2.txt —> you can select multiple files
+	•	git diff branch-1..branch-2 —> compare different branches
+	•	git diff 4a9da7b..2l32p9c —> compare between commits
+
+
+STASH
+	•	git stash | git stash save
+	•	git stash pop —> apply recent stash
+	•	git stash apply —> applies stash but also keeps the stash, so you can apply or pop the same one to another branches
+	•	git stash list 
+	•	git stash pop stash@{0}
+	•	git stash clear —> clear all
+	•	git stash drop stash@{1} —> delete single one
+
+
+
+— GIT CHECKOUT —
+
+	•	git checkout <commit-hash>  —> to view a previous commit, just 7digits are enough
+ with this, you will be in 'detached HEAD' state. you can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by switching back to the branch
+
+HEAD usually refers to a branch, NOT a specific commit.
+
+	•	git checkout HEAD~1 —> refers to the ONE commit before HEAD (parent)
+	•	git checkout HEAD~2 —> refers to 2 commits before HEAD (grandparent)
+
+	•	git switch master -> to RE-Attach HEAD or
+	•	git switch - —> to get back where you were before
+	•	git checkout origin/<branchname> —> this will detach the HEAD to work with HEAD attached workspace;
+	•	git switch <remote-branchname> —> to create a new local branch from the remote branch of the same name AND sets up to track the remote branch  .switching without "origin", if such branch exist on remote, action will be successful
+	•	git checkout —track origin/branchname —>same thing as above with switch
+
+Discarding Changes with Checkout
+To revert the file back to whatever it looked like when you last commmitted, you can use: 
+	•	git checkout --  <filename> || git checkout HEAD <filename>  —> discards any changes in that file, reverting back to the HEAD 
+
+— GIT RESTORE —
+	•	git restore <filename> —> this command is "undoable", it means changes will be gone for good!
+	•	git restore --source HEAD~1 <file-name> —> restore the contents prior to HEAD
+	•	git restore --staged <file-name> —> get back files to unstaged state.
+
+— GIT RESET —
+	•	git reset <commit-hash> —> for example, if you made commits to the master branch, you can take back the commits. those changes will be in your working directory as unstaged changes
+	•	git reset --hard <commit-hash> —> undo commits and all changes. (changes will be gone for good)
+	•	git reset --hard HEAD~1
+
+— GIT REVERT —
+	•	git revert <commit-hash>  —> git revert is also used to "undo" changes, but it creates a brand new commit which reverses/undos the changes from a commit. Because it results in a new commit you will be promted to enter commit message.
+	⁃	revert is better to use when other people are also working with same repository. because if you reset the commits that others have too, it will cause some problems. In this case, use revert and it will create a new commit and everything will be fine.
+	⁃	git revert sometimes cause conflicts
+
+Git Remote
+	•	git remote —> shows the remote name (which is origin almast always) 
+	•	git remote -v (fetch) (psuh) —> shows remote url
+	•	git remote rename <old> <new>
+	•	git remote remove <name>
+	•	git remote add <name> <url> (most of the times the name is being "origin")
+
+Git Push
+	•	git push <remote-name> <branch>
+	•	git push <remote> <local-branch>:<remote-branch> —> used to push different branches
+	•	git push -u origin master —> -u option allows us to set upstream of the branch we’re pushing. Like a link connecting local branch to a branch on Github. Running this command sets the upstream of the local master branch on the origin repo
+-u is shortcut for --set-upstream
+
+Fetch & Pull
+	•	git checkout origin/master —> to see the origin point, it will detach the HEAD. Because if you have some updates committed, origin/master  will stay behind.
+	⁃	fetching allows us to download changes from a remote repository, BUT those changes will not be automatically integrated into our working files
+	⁃	It lets you te see what others have been working on without having to merge those changes into your local repo.
+	•	git fetch <remote> —> git fetch origin (fetches branches and history from a specific remote repository. Only updates the remote tracking branches.)
+	•	git fetch <remote> <branch> —> fetch from specific branch
+	⁃	Fetch is safe to do anytime, Pull may couse conflicts if you have uncommitted changes.
+	⁃	Fetch does not merge changes onto your HEAD branch
+
+
+Forking
+to fork a project, fork from github and clone it.
+	•	git remote add upstream <repo-url>  —>To get updates from the original one
+	•	git remote -v —> see al remotes
+	•	git pull upstream main (instead of origin, we use "upstream" keyword that we created for original repo name)
+
+<——REBASE——>
+There are two ways to use rebase: 1-for alternative merge, 2-as a clean up tool
+Rebase is just another way of combining branches instead of merging.
+When you have a feature branch and merge the master branch to your branch in order to get updates, you will have others commit history in your branch too. I f you want a clear history, you need to use "rebase" command
+
+	•	git switch feature-branch
+	•	git rebase master
+
+WARNING
+	⁃	Never rebase commits that have been shared with others. If you have already pushed commits, DO NOT rebase them unless you are positive no one on the team is using those commits.
+
+Interactive Rebasing (Rewording Commits, Fixing Up/Squahing Commits, Dropping Commits)
+	•	git rebase -i HEAD~4
+	⁃	Running git rebase with the "-i" option will enter the interactive mode, which allows us to edit commits, add files, drop commits, etc. Note that we need to specify how far back we want to rewrite commits.
+	⁃	Also notice that we are not rebasing onto another branch. Instead, we are rebasing a series of commits onto HEAD they currently are based on.
+
+_______________________________________________
+_______________________________________________
+_______________________________________________
+VS CODE
+———————————————- 
+Activate "code" commands
+for mac: command + shift + P
+enter: Install 'code' command in PATH 
+======================
+
+Listing Your Tags
+Listing the existing tags in Git is straightforward. Just type [git tag] (with optional -l or --list):
+Creating Tags
+Git supports two types of tags: lightweight and annotated.
+Annotated Tags
+Creating an annotated tag in Git is simple. The easiest way is to specify -a when you run the tag command:
+$ git tag -a v1.4 -m "my version 1.4"
+$ git tag
+v0.1
+v1.3
+v1.4
+
+
+ git log --pretty=oneline  
+git branch --set-upstream-to=origin/3.2.x add-list-ops-3.2 
+ git pull --tags -f  
+	(-f will ignore your local and get from remote in case of duplication)
+git tag -l “v3.2*”
+	(list all tags starting with the text)
+git tag -a v3.3.0_0.1.3 -m "mail ops jmx added to 3.3.x" 93cbc8c5
+ git push --tags 
+
+git show <tagname>     
